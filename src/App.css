@@ -50,3 +50,22 @@
   height: 100px;
   border: 1px solid lightgray;
 }
+
+.footer {
+  color: white;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  font-size: calc(20px + 2vmin);
+  background-color: #6185fb;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+.Outlet {
+  min-height: 400px;
+  /* height: 400px; */
+}
