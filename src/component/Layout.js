@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 const Layout = () => {
     return (
         <>
             <header className='header'>
-                <Link to="/">Home</Link>
-                <Link to="/blog">Blog</Link>
-                <Link to="/about">About</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/about">About</NavLink>
             </header>
 
             <main className='Outlet'>

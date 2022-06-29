@@ -69,3 +69,12 @@
   min-height: 400px;
   /* height: 400px; */
 }
+
+:root {
+  --color-active: #656e10;
+}
+
+.active {
+  color : var(--color-active);
+  cursor: default;
+}
