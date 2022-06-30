@@ -6,7 +6,7 @@ const Layout = () => {
         <>
             <header className='header'>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/posts">Blog</NavLink>
                 <NavLink to="/about">About</NavLink>
             </header>
 
