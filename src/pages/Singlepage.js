@@ -18,7 +18,7 @@ const Singlepage = () => {
             <p style={{ margin: "20px" }}>{post.body}</p>
             <p style={{ marginLeft: "20px" }}>{"id: #000" + `${post.id}`}</p>
             <hr />
-            <Link to={`/posts/${id}/edit`}>Edit this post</Link>
+            <Link style={{ marginLeft: "20px" }} to={`/posts/${id}/edit`}>Edit this post {"id: #000" + `${post.id}`}</Link>
         </>
     )
 }
